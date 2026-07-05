@@ -14,7 +14,7 @@
    </description>
    <platform os="all" arch="noarch" version="1.8.9:1.9.99">
       <package fileName="dbe-ai-advisor-20260705.zip"
-               sha1="742c6ecb9648b52cafeca586660c1594030ad979"
+               sha1="bb9596b820a942a9452da1eaa515e690860e9f2c"
                type="script"
                releaseDate="20260705">
          <title>DBE Auto Pilot</title>
