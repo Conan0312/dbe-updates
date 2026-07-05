@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PixInsight Update Repository 描述檔
+  使用者在 PixInsight 的 Resources > Updates > Manage Repositories
+  加入本檔所在的 URL（目錄，不含檔名），即可自動安裝與更新。
+
+  注意：sha1 / fileName / releaseDate / version 由 tools/make-release.ps1
+  自動更新，請勿手動修改。
+-->
+<xri version="1.0">
+   <description>
+      <p>DBE AI Advisor — PixInsight DynamicBackgroundExtraction 的 AI 輔助自動化工具。</p>
+      <p>從剛疊好的影像開始，自動完成初始 DBE、AI 背景梯度分析、套用建議並執行最終 DBE。</p>
+   </description>
+   <platform os="all" arch="noarch" version="1.8.9:1.9.99">
+      <package fileName="dbe-ai-advisor-20260705.zip"
+               sha1="8867f03f0fc17a68caac9b822e85fa2c2e82c761"
+               type="script"
+               releaseDate="20260705">
+         <title>DBE Auto Pilot</title>
+         <description>
+            <p>DBE Auto Pilot：AI 輔助的全自動 DynamicBackgroundExtraction。</p>
+            <p>需要 Anthropic API Key（第一次執行時於對話框輸入，之後會記住）。</p>
+            <p>安裝後重新啟動 PixInsight，於 Script 選單找到 DBEAutoPilot。</p>
+         </description>
+      </package>
+   </platform>
+</xri>
