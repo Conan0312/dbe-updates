@@ -13,8 +13,8 @@
       <p>從剛疊好的影像開始，自動完成初始 DBE、AI 背景梯度分析、套用建議並執行最終 DBE。</p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9:1.9.99">
-      <package fileName="dbe-ai-advisor-20260705-2123.zip"
-               sha1="73386c0f83bd47ba478cc0abeff818cc8c1e8963"
+      <package fileName="dbe-ai-advisor-20260705-2200.zip"
+               sha1="07783cae6c8d3ccd98914d7360160c50581c7c7e"
                type="script"
                releaseDate="20260705">
          <title>DBE Auto Pilot</title>
